@@ -1,11 +1,11 @@
-# Learn JavaScript – French Edition
+# Learn JavaScript - French Edition
 
 ![Status](https://img.shields.io/badge/status-translation_in_progress-yellow)
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue)
 ![Language](https://img.shields.io/badge/language-French-green)
 ![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen)
 
-**Learn JavaScript – French Edition** is the complete French translation of [Learn JavaScript](https://github.com/sumn2u/learn-javascript) by **Suman Kunwar**.  
+**Learn JavaScript - French Edition** is the complete French translation of [Learn JavaScript](https://github.com/sumn2u/learn-javascript) by **Suman Kunwar**.  
 The goal of this project is to make the resource accessible to French-speaking learners and to provide additional content adapted to professional training programs (CDA, DWWM…).
 
 ---

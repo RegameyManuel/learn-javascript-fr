@@ -51,8 +51,8 @@ Les _métacaractères_ sont des caractères spéciaux qui possèdent une signifi
 | Métacaractère | Description                                                                  |
 | ------------- | ---------------------------------------------------------------------------- |
 | `.`           | Matche tous les caractères sauf une nouvelle ligne ou un terminateur         |
-| `\w`          | Matche un caractère alphanumérique `[a-zA-Z0–9_]`                            |
-| `\W`          | Matche tous les caractères non alphanumériques (identique à `[^a-zA-Z0–9_]`) |
+| `\w`          | Matche un caractère alphanumérique `[a-zA-Z0-9_]`                            |
+| `\W`          | Matche tous les caractères non alphanumériques (identique à `[^a-zA-Z0-9_]`) |
 | `\d`          | Matche tous les caractères numériques ( same as `[0-9]`)                     |
 | `\D`          | Matche tous les caractères non numériques                                    |
 | `\s`          | Matche tous les caractères d'espacement (espaces, tabulations, etc)          |
