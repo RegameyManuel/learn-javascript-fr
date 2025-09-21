@@ -118,4 +118,5 @@ let person = {
 ---
 
 ⬅️ [Chapitre précédent : Égalité](./c_Egalite.md)
+
 ➡️ [Chapitre suivant : Exercices](./e_Exercices.md)

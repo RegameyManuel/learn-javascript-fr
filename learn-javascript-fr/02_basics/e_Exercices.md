@@ -101,5 +101,6 @@ Affiche chaque propriété avec `console.log`.
 ---
 
 ⬅️ [Chapitre précédent : Les Types](./d_Types.md)
+
 ➡️ [Chapitre suivant : Les Nombres](../03_numbers/a_Nombres.md)
 

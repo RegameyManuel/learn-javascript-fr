@@ -68,5 +68,6 @@ Affiche le message suivant avec un littéral de gabarit, en une seule ligne :
 ---
 
 ⬅️ [Chapitre précédent : Concaténation de chaînes](./e_Concatenation.md)
+
 ➡️ [Chapitre suivant : Logique Conditionnelle](../05_conditional/a_Logique.md)
 

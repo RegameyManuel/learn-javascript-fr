@@ -53,4 +53,5 @@ let boolResult2 = bool1 === bool2  // false
 
 
 ⬅️ [Chapitre précédent : Les Variables](./b_Variables.md)
+
 ➡️ [Chapitre suivant : Les Types](./d_Types.md)

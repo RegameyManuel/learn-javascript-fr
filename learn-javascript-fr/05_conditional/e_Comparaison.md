@@ -61,5 +61,6 @@ Les deux cas possibles sont séparés par le signe `:`.
 ---
 
 ⬅️ [Chapitre précédent : Switch](./d_switch.md)
+
 ➡️ [Chapitre suivant : Conditions multiples](./f_Conditions.md)
 

@@ -417,4 +417,5 @@ console.log([...a.entries()]); // [[0,"x"], [1,"y"]]
 ---
 
 ⬅️ [Chapitre précédent : Méthodes des tableaux](./a_array.md)
+
 ➡️ [Chapitre suivant : Memo](./c_memo.md)

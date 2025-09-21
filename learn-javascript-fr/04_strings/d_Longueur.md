@@ -60,4 +60,5 @@ console.log(otherMessage.length); // 12
 ---
 
 ⬅️ [Chapitre précédent : Remplacement de chaînes](./c_Remplacement.md)
+
 ➡️ [Chapitre suivant : Concaténation de chaînes](./e_Concatenation.md)

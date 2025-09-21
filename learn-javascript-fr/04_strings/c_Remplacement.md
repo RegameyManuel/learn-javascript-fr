@@ -68,4 +68,5 @@ console.log(newMessage); // Je suis heureux
 ---
 
 ⬅️ [Chapitre précédent : Création de chaînes](./b_Creation.md)
+
 ➡️ [Chapitre suivant : Longueur des chaînes](./d_Longueur.md)

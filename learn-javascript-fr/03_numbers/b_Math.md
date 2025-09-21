@@ -93,4 +93,5 @@ Il couvre les besoins courants en arrondis, puissances, trigonométrie et géné
 ---
 
 ⬅️ [Chapitre précédent : Nombres](./a_Nombres.md)
+
 ➡️ [Chapitre suivant : Opérateurs de base](./c_Operateurs.md)

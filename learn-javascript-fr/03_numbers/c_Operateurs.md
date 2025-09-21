@@ -87,4 +87,5 @@ Enfin, il est possible de convertir des chaînes en nombres avec `parseInt`, `pa
 ---
 
 ⬅️ [Chapitre précédent : Math](./b_Math.md)
+
 ➡️ [Chapitre suivant : Opérateurs avancés](./d_Avances.md)

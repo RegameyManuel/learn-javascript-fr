@@ -75,5 +75,6 @@ console.log(location); // Paris, France
 ---
 
 ⬅️ [Chapitre précédent : Longueur des chaînes](./d_Longueur.md)
+
 ➡️ [Chapitre suivant : Exercices](./f_Exercices.md)
 

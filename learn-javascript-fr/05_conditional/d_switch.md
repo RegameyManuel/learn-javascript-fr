@@ -97,5 +97,6 @@ switch (jour) {
 ---
 
 ⬅️ [Chapitre précédent : Else](./c_else.md)
+
 ➡️ [Chapitre suivant : Comparaison](./e_Comparaison.md)
 

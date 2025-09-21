@@ -58,5 +58,6 @@ description: Fiche de révision rapide des principales méthodes de tableaux en 
 
 ---
 
-⬅️ [Chapitre précédent : Méthodes des tableaux](./b_methodes.md)  
+⬅️ [Chapitre précédent : Méthodes des tableaux](./b_methodes.md)
+
 ➡️ [Chapitre suivant : Exercices](./d_Exercices.md)

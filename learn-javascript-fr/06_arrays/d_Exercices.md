@@ -84,5 +84,6 @@ Un tableau `panier = ["pomme","banane","pomme","orange","banane","pomme"]`.
 
 ---
 
-⬅️ [Chapitre précédent : Mémo](./c_memo.md)  
+⬅️ [Chapitre précédent : Mémo](./c_memo.md)
+
 ➡️ [Chapitre suivant : Les Boucles](../07_loops/a_Boucles.md)

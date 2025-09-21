@@ -57,4 +57,5 @@ if (country === "Espagne") {
 ---
 
 ⬅️ [Chapitre précédent : If](./b_if.md)
+
 ➡️ [Chapitre suivant : Switch](./d_switch.md)

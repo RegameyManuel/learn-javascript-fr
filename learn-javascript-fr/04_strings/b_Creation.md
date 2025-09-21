@@ -67,5 +67,6 @@ console.log(intro);
 ---
 
 ⬅️ [Chapitre précédent : Chaînes de caractères](./a_Chaines.md)
+
 ➡️ [Chapitre suivant : Remplacement de chaînes](./c_Remplacement.md)
 

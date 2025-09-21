@@ -85,4 +85,4 @@ De langage improvisé en dix jours, il est devenu un langage universel et polyva
 - **JavaScript** est un langage moderne, central dans le développement web et les navigateurs.  
 
 ---
-➡️ Chapitre suivant : [Typographie et conventions](./b_Typographie.md)
+➡️ [Chapitre suivant : Typographie et conventions](./b_Typographie.md)

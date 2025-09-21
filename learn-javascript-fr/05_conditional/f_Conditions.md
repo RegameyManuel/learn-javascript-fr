@@ -66,5 +66,6 @@ Dans ce cas, la vérification du `name` est effectuée en premier, puis combiné
 ---
 
 ⬅️ [Chapitre précédent : Comparaison](./e_Comparaison.md)
+
 ➡️ [Chapitre suivant : Exercices](./g_Exercices.md)
 

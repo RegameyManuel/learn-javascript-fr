@@ -51,4 +51,5 @@ Dans cet exemple, deux branches sont possibles :
 ---
 
 ⬅️ [Chapitre précédent : Exercices](../04_strings/f_Exercices.md)
+
 ➡️ [Chapitre suivant : If](./b_if.md)

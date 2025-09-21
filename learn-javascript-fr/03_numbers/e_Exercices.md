@@ -65,4 +65,5 @@ Ils sont organisés du plus simple au plus complexe.
 ---
 
 ⬅️ [Chapitre précédent : Opérateurs avancés](./d_Avances.md)
+
 ➡️ [Chapitre suivant : Chaînes de caractères](../04_strings/a_Chaines.md)

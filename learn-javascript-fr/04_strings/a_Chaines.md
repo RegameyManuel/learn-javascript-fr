@@ -46,5 +46,6 @@ Mais cette approche est déconseillée, car `strObj` n’est pas une primitive m
 ---
 
 ⬅️ [Chapitre précédent : Opérateurs Avancés](../03_numbers/e_Exercices.md)
+
 ➡️ [Chapitre suivant : Création de chaînes](./b_Creation.md)
 

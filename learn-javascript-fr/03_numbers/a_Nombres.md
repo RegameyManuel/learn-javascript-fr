@@ -117,4 +117,5 @@ Au-delà de ces bornes, JavaScript risque d’arrondir ou d’approximer.
 ---
 
 ⬅️ [Chapitre précédent : Exercices](../02_basics/e_Exercices.md)
+
 ➡️ [Chapitre suivant : Math](./b_Math.md)

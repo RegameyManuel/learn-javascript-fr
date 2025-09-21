@@ -91,19 +91,7 @@ let reponse = confirm("Veux-tu continuer ?");
 console.log(reponse);
 ```
 
----
-
-## À retenir
-
-* `console.log()` → écrire dans la console (débogage).
-* `alert()` → afficher un message bloquant.
-* `prompt()` → demander une saisie à l’utilisateur.
-* `confirm()` → poser une question fermée (OK/Annuler).
-
-Ces fonctions sont très pratiques pour les **premiers pas** en JavaScript, mais dans un projet sérieux, elles sont souvent remplacées par des interactions plus avancées (formulaires, DOM, etc.).
-
-
-
+-
 ---
 
 ## À retenir
@@ -123,4 +111,5 @@ Ces fonctions sont très pratiques pour les **premiers pas** en JavaScript, mais
 ---
 
 ⬅️ [Chapitre précédent : JavaScript](./a_JavaScript.md)
-➡️ Chapitre suivant : [Les Commentaires](../02_basics/a_Commentaires.md)
+
+➡️ [Chapitre suivant : Les Commentaires](../02_basics/a_Commentaires.md)

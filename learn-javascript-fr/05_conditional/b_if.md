@@ -98,5 +98,6 @@ if (age >= 18) {
 ---
 
 ⬅️ [Chapitre précédent : Logique conditionnelle](./a_Logique.md)
+
 ➡️ [Chapitre suivant : Else](./c_else.md)
 
