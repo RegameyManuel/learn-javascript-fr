@@ -3,6 +3,14 @@ chapter: 9
 pageNumber: 63
 description: L'énumération fait référence au fait d'itérer sur les propriétés d'un objet et d'effectuer des actions sur chaque propriété. Une façon d'énumérer les propriétés d'un objet est d'utiliser une boucle `for in`. La boucle `for in` permet d'itérer de façon stochastique sur les propriétés d'un objet qui est `énumérable`, et pour chaque propriété on exécute un certain bloc d'instructions.
 ---
+
+---
+chapter: 9
+section: 
+title: 
+description: 
+---
+
 # L'énumération
 
 On appelle _Enumération_, le fait d'itérer sur les propriétés d'un objet et d'exécuter un bloc d'instructions pour chaque propriété de l'objet. Il y a diverses façons d'énumérer les propriétés d'un objet en JavaScript:

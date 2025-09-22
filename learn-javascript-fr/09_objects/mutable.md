@@ -3,6 +3,14 @@ chapter: 9
 pageNumber: 58
 description: La mutabilité signifie que l'objet ou le type de données peut être changé après sa création tandis que l'immutabilité signifie qu'on ne peut le changer. Les objets mutables autorisent la modification de leur état interne alors que les objets immutables renvoient une nouvelle instance avec les modifications effectuées, laissant l'état original inchangé.
 ---
+
+---
+chapter: 9
+section: 
+title: 
+description: 
+---
+
 # La mutabilité
 
 La **mutabilité** signifie que l'objet ou le type de données peut être changé après sa création tandis que l'**immutabilité** signifie qu'on ne peut le changer. Les objets mutables autorisent la modification de leur état interne alors que les objets immutables renvoient une nouvelle instance avec les modifications effectuées, laissant l'état original inchangé.

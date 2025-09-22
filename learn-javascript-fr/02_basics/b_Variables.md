@@ -117,6 +117,8 @@ La différence principale se situe au niveau de la portée :
 * `let` limite l’utilisation de la variable au bloc (`{ ... }`) dans lequel elle est déclarée.
 * `const` crée une variable dont la valeur ne peut plus être modifiée après sa déclaration.
 
+Nous préciserons les mécanismes de la portée dans le Chapitre 8 sur les fonctions.
+
 
 ## Exemple var vs let
 

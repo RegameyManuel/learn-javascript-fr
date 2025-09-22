@@ -5,6 +5,13 @@ pageNumber: 56
 description: Un objet est un type de données composé qui vous permet de stocker et organiser plusieurs valeurs (propriétés) en des paires de clés et de valeur. Il s'agit d'une structure de données tout à fait fondamentale dans en JavaScript et est largement utilisé pour représenter des données complexes et des entitées structurées.
 ---
 
+---
+chapter: 9
+section: 
+title: 
+description: 
+---
+
 # Chapitre 9
 
 # Les objets

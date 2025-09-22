@@ -3,6 +3,14 @@ chapter: 9
 pageNumber: 62
 description: L'opérateur `delete` peut être utilisé pour **supprimer une propriété**. Lorsqu'une propriété est supprimée, elle est enlevée de l'objet et ne peut ni être accédée ni énumérée (i.e., n'apparaît pas dans une boucle for-in).
 ---
+
+---
+chapter: 9
+section: 
+title: 
+description: 
+---
+
 # Le mot clé delete
 
 L'opérateur `delete` peut être utilisé pour **supprimer une propriété**. Lorsqu'une propriété est supprimée, elle est enlevée de l'objet et ne peut ni être accédée ni énumérée (i.e., n'apparaît pas dans une boucle for-in).
