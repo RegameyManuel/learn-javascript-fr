@@ -50,7 +50,7 @@ All contributions should follow two principles:
 
 - [x] Restructuring in progress  
 - [x] Translation in progress  
-- [ ] Additions  
+- [x] Additions  
 - [ ] Proofreading  
 - [ ] Complete publication  
 
