@@ -50,7 +50,7 @@ Les contributions doivent respecter deux principes :
 
 - [x] Restructuration en cours  
 - [x] Traduction en cours  
-- [ ] Ajouts  
+- [x] Ajouts  
 - [ ] Relecture  
 - [ ] Publication complète  
 
