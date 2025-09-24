@@ -1,11 +1,10 @@
 ---
-layout: editorial
 chapter: 15
-pageNumber: 94
-description: Classes are templates for creating an object. It encapsulates data with code to work on with data. The keyword class is used to create a class. 
+section: a
+title: Classes
+description: Classes are templates for creating an object. It encapsulates data with code to work on with data. The keyword class is used to create a class.
 ---
 
-# Chapter 15
 # Classes
 
 Classes are templates for creating an object. It encapsulates data with code to work on with data. For example if we want to make a family tree of birds, we can make a bird class and every bird object we make will have the methods and data from the bird class. 

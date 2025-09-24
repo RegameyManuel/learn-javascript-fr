@@ -1,6 +1,7 @@
 ---
 chapter: 16
-pageNumber: 83
+section: e
+title: Navigateur
 description: Le navigateur est un objet intégré qui fournit des informations sur le navigateur Web et le système de l'utilisateur. Il contient diverses propriétés et méthodes qui donnent accès à des informations sur l'environnement de l'utilisateur, telles que le nom du navigateur, sa version, l'agent utilisateur, les préférences linguistiques, etc.
 ---
 

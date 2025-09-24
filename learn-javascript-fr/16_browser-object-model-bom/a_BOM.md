@@ -1,7 +1,7 @@
 ---
-layout: editorial
 chapter: 16
-pageNumber: 79
+section: a
+title: Browser Object Model (BOM)
 description: Le modèle objet du navigateur (browser object model, BOM) nous permet d'interagir avec la fenêtre du navigateur. Grâce à lui, on peut contrôler ou manipuler divers aspects du navigateur, tels que la fenêtre, les cadres, l'historique, l'emplacement, etc.
 ---
 

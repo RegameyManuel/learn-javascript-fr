@@ -4,6 +4,13 @@ pageNumber: 96
 description:  Composition is useful for creating "has-a" relationships that ensure loose coupling and flexibility. If we imagine that our class is a wall, the classes that make it up via composition are like bricks - smaller and more manageable components.
 ---
 
+---
+chapter: 15
+section: 
+title: 
+description: 
+---
+
 # Composition
 
 Composition is useful for creating "has-a" relationships that ensure loose coupling and flexibility. If we imagine that our class is a wall, the classes that make it up via composition are like bricks - smaller and more manageable components.

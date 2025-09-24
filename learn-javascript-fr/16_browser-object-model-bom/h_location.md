@@ -1,6 +1,7 @@
 ---
 chapter: 16
-pageNumber: 86
+section: h
+title: Location
 description: L'objet Location (emplacement) est un objet intégré qui représente l'URL actuelle de la page web affichée dans le navigateur. Il fournit l'emplacement de la page Web actuelle et permet d'effectuer diverses opérations liées aux URL.
 ---
 

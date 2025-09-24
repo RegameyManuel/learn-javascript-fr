@@ -1,6 +1,7 @@
 ---
 chapter: 16
-pageNumber: 81
+section: c
+title: Popup (modale)
 description: Les fenêtres contextuelles (ou modales), aussi appelées "popup", sont de petites fenêtres qui apparaissent au-dessus du navigateur principal pour fournir des informations. Elles sont utilisées pour afficher des notifications, des alertes, des boîtes de dialogue, des formulaires de connexion ou tout autre contenu qui doit apparaître temporairement ou dans un contexte distinct de celui de la page principale.
 ---
 

@@ -1,6 +1,7 @@
 ---
 chapter: 16
-pageNumber: 85
+section: g
+title: Historique
 description: L'objet History gère l'historique du navigateur. Au fur et à mesure que nous naviguons sur les pages, de nouvelles entrées sont poussées dans cette pile.
 ---
 

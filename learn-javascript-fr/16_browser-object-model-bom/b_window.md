@@ -1,6 +1,7 @@
 ---
 chapter: 16
-pageNumber: 80
+section: b
+title: Window (fenêtre)
 description: Window est un objet global qui représente la fenêtre ou l'onglet du navigateur dans lequel la page web en cours est chargée. L'objet window agit comme l'objet global pour le JavaScript côté client, ce qui signifie que les variables et les fonctions déclarées sans les mots-clés var, let ou const deviennent des propriétés et des méthodes de l'objet window.
 ---
 

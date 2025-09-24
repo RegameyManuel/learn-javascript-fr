@@ -1,6 +1,7 @@
 ---
 chapter: 16
-pageNumber: 84
+section: f
+title: Cookies
 description: Les cookies sont des petits fichiers stockés sur un ordinateur et accessibles par le navigateur.
 ---
 
