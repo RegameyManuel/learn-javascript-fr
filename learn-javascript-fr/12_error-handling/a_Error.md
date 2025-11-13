@@ -58,6 +58,6 @@ La gestion des erreurs est indispensable pour rendre un programme robuste et agr
 
 ---
 
-⬅️ [Chapitre précédent : …](../11_json/b_Exercices.md)
+⬅️ [Chapitre précédent : JSON](../11_json/b_Exercices.md)
 
 ➡️ [Chapitre suivant : try...catch](./b_try...-catch.md)

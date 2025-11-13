@@ -97,6 +97,6 @@ Ces instructions offrent un contrôle précis du déroulement d’une boucle, ma
 
 ---
 
-⬅️ [Chapitre précédent : Itérations Modernes](./e_Iterations.md)
+⬅️ [Chapitre précédent : Itérations Modernes](./e_iterations.md)
 
-➡️ [Chapitre suivant : Les Fonctions](../08_fonctions/a_Fonctions.md)
+➡️ [Chapitre suivant : Exercices](./g_Exercices.md)

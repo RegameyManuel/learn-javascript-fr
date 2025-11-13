@@ -95,6 +95,6 @@ Cependant, elles ne remplacent pas totalement les fonctions classiques, car elle
 
 ---
 
-⬅️ [Chapitre précédent : Les Portées](./d_Portes.md)
+⬅️ [Chapitre précédent : Les Portées](./d_Portee.md)
 
 ➡️ [Chapitre suivant : Les Closures](./f_Closures.md)

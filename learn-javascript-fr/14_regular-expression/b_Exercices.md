@@ -91,4 +91,4 @@ Crée un mini-validateur de formulaire avec des regex :
 
 ⬅️ [Chapitre précédent : Expressions régulières](./a_regular-expression.md)
 
-➡️ [Chapitre suivant : …](./c_autre_section.md)
+<!-- ➡️ [Chapitre suivant : …](./c_autre_section.md) -->

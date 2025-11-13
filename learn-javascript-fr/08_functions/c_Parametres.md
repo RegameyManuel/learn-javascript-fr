@@ -112,4 +112,4 @@ Ils peuvent être simples, avoir des valeurs par défaut, être regroupés grâc
 
 ⬅️ [Chapitre précédent : Fonctions d’ordre supérieur](./b_higher-order.md)
 
-➡️ [Chapitre suivant : Les Portées](./d_Portes.md)
+➡️ [Chapitre suivant : Les Portées](./d_Portee.md)

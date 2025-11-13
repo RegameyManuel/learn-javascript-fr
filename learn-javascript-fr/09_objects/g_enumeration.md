@@ -58,4 +58,4 @@ L’énumération permet de parcourir dynamiquement les propriétés d’un obje
 
 ⬅️ [Chapitre précédent : Le mot clé delete](./f_delete.md)
 
-➡️ [Chapitre suivant : …](../10_autre_chapitre/a_introduction.md)
+➡️ [Chapitre suivant : …](./h_class.md)

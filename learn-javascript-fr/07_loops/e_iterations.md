@@ -100,6 +100,6 @@ Elles s’imposent aujourd’hui comme des outils incontournables pour manipuler
 
 ---
 
-⬅️ [Chapitre précédent : La Boucle Do...While](./d_DoWhile.md)
+⬅️ [Chapitre précédent : La Boucle Do...While](./d_dowhile.md)
 
-➡️ [Chapitre suivant : Contrôle du Flux](./f_ControleFlux.md)
+➡️ [Chapitre suivant : Contrôle du Flux](./f_controls.md)

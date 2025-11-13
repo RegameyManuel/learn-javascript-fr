@@ -41,6 +41,6 @@ Grâce à elles, un programme devient à la fois plus court, plus lisible et plu
 
 ---
 
-⬅️ [Chapitre précédent : Les Fonctions](../06_fonctions/d_Fonctions.md)
+⬅️ [Chapitre précédent : Les Tableaux](../06_arrays/d_Exercices.md)
 
-➡️ [Chapitre suivant : La Boucle For](./b_For.md)
+➡️ [Chapitre suivant : La Boucle For](./b_for.md)

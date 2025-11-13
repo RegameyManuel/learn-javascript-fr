@@ -45,6 +45,6 @@ Elle s’apparente à la boucle `while`, mais son fonctionnement repose sur une 
 
 ---
 
-⬅️ [Chapitre précédent : La Boucle While](./c_While.md)
+⬅️ [Chapitre précédent : La Boucle While](./c_while.md)
 
-➡️ [Chapitre suivant : Itérations Modernes](./e_IterationsTableaux.md)
+➡️ [Chapitre suivant : Itérations Modernes](./e_iterations.md)

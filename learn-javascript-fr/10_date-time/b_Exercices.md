@@ -77,4 +77,4 @@ Conçois un petit programme qui affiche la date du jour, l’heure actuelle, l�
 
 ⬅️ [Chapitre précédent : Date et temps](./a_date-time.md)
 
-➡️ [Chapitre suivant : …](./c_autre_section.md)
+➡️ [Chapitre suivant : JSON](../11_json/a_json.md)

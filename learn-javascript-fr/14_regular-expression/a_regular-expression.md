@@ -125,6 +125,6 @@ Bien qu’elles puissent paraître difficiles à lire au premier abord, elles of
 
 ---
 
-⬅️ [Chapitre précédent : …](../13_modules/b_Exercices.md)
+⬅️ [Chapitre précédent : Modules](../13_modules/b_Exercices.md)
 
-➡️ [Chapitre suivant : …](./b_autre_section.md)
+➡️ [Chapitre suivant : Exercices](./b_Exercices.md)

@@ -96,6 +96,6 @@ Les modules sont une manière d’organiser son code en fichiers autonomes, réu
 
 ---
 
-⬅️ [Chapitre précédent : …](../12_autre_chapitre/l_exercices.md)
+⬅️ [Chapitre précédent : Gestion des Erreurs](../12_error-handling/e_Exercices.md)
 
-➡️ [Chapitre suivant : …](./b_autre_section.md)
+➡️ [Chapitre suivant : Exercices](./b_Exercices.md)

@@ -84,4 +84,4 @@ Crée un petit programme qui gère une liste de tâches :
 
 ⬅️ [Chapitre précédent : JSON](./a_json.md)
 
-➡️ [Chapitre suivant : …](../12_error-handling/a_Error.md)
+➡️ [Chapitre suivant : Gestion d'Erreurs](../12_error-handling/a_Error.md)

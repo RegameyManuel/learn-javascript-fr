@@ -93,4 +93,4 @@ Elle constitue l’un des outils les plus pratiques et les plus utilisés du lan
 
 ⬅️ [Chapitre précédent : Les Boucles](./a_Boucles.md)
 
-➡️ [Chapitre suivant : La Boucle While](./c_While.md)
+➡️ [Chapitre suivant : La Boucle While](./c_while.md)

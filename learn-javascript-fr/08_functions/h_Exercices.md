@@ -106,4 +106,4 @@ La pratique régulière de ces concepts est essentielle pour acquérir des réfl
 
 ⬅️ [Chapitre précédent : Les Fonctions récursives](./g_Recursives.md)
 
-➡️ [Chapitre suivant : Les Objets](../09_objets/a_Objets.md)
+➡️ [Chapitre suivant : Les Objets](../09_objects/a_Objets.md)

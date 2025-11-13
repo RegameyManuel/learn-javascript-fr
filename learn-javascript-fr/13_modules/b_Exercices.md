@@ -94,4 +94,4 @@ Organise les fichiers avec des exports nommés et par défaut selon les besoins.
 
 ⬅️ [Chapitre précédent : Modules](./a_modules.md)
 
-➡️ [Chapitre suivant : …](./c_autre_section.md)
+➡️ [Chapitre suivant : Expression Régulières](../14_regular-expression/a_regular-expression.md)

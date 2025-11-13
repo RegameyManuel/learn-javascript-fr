@@ -51,6 +51,6 @@ Il faut veiller à éviter les conditions qui ne changent jamais, afin de ne pas
 
 ---
 
-⬅️ [Chapitre précédent : La Boucle For](./b_For.md)
+⬅️ [Chapitre précédent : La Boucle For](./b_for.md)
 
-➡️ [Chapitre suivant : La Boucle Do...While](./d_DoWhile.md)
+➡️ [Chapitre suivant : La Boucle Do...While](./d_dowhile.md)

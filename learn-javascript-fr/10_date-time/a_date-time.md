@@ -94,6 +94,6 @@ L’objet `Date` est la solution native de JavaScript pour travailler avec les d
 
 ---
 
-⬅️ [Chapitre précédent : …](../09_objets/l_Exercices.md)
+⬅️ [Chapitre précédent : Objets](../09_objects/l_Exercices.md)
 
-➡️ [Chapitre suivant : …](./b_Exercices.md)
+➡️ [Chapitre suivant : Exercices](./b_Exercices.md)

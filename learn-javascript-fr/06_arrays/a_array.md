@@ -111,4 +111,4 @@ Les indices valides sont toujours des **entiers non négatifs**. Les clés non n
 
 ⬅️ [Chapitre précédent : Conditions](../05_conditional/g_Exercices.md)
 
-➡️ [Chapitre suivant : Méthodes des tableaux](./x_methodes.md)
+➡️ [Chapitre suivant : Méthodes des tableaux](./b_methodes.md)

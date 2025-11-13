@@ -112,4 +112,4 @@ La récursion est puissante pour les problèmes hiérarchiques, mais doit être 
 
 ⬅️ [Chapitre précédent : Les Closures](./f_Closures.md)
 
-➡️ [Chapitre suivant : Les Fonctions asynchrones](./h_Exercices)
+➡️ [Chapitre suivant : Exercices](./h_Exercices)

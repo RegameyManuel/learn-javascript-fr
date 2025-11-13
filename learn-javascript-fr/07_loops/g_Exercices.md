@@ -93,6 +93,6 @@ La pratique régulière te donnera les bons réflexes pour choisir la forme la p
 
 ---
 
-⬅️ [Chapitre précédent : Contrôle du Flux](./f_Controls.md)  
+⬅️ [Chapitre précédent : Contrôle du Flux](./f_controls.md)  
 
-➡️ [Chapitre suivant : Les Fonctions](../08_fonctions/a_Fonctions.md)  
+➡️ [Chapitre suivant : Les Fonctions](../08_fonctions/a_Fonctions.md)
