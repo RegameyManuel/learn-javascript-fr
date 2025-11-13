@@ -2,7 +2,7 @@
 chapter: 12
 section: a
 title: La gestion des erreurs
-description: Dans un programme, des erreurs surviennent inévitablement : fautes de code, saisies incorrectes, ou événements imprévisibles. Plutôt que de laisser le programme s’arrêter brutalement, il est possible de gérer ces erreurs pour assurer un fonctionnement plus robuste et offrir une meilleure expérience à l’utilisateur.
+description: Dans un programme, des erreurs surviennent inévitablement (fautes de code, saisies incorrectes, ou événements imprévisibles). Plutôt que de laisser le programme s’arrêter brutalement, il est possible de gérer ces erreurs pour assurer un fonctionnement plus robuste et offrir une meilleure expérience à l’utilisateur.
 ---
 
 # La gestion des erreurs
@@ -40,12 +40,14 @@ Quelques principes aident à tirer le meilleur de la gestion des erreurs. Il est
 L’une des techniques les plus répandues consiste à entourer un morceau de code d’un bloc `try...catch`. L’idée est simple : on essaie d’exécuter du code dans la partie `try`. Si tout se passe bien, on continue normalement. Si une erreur survient, l’exécution est interrompue et on passe dans le bloc `catch`, où l’on peut réagir sans que tout le script s’arrête.  
 
 Ce mécanisme est détaillé dans les sections suivantes :  
+
 - [try...catch](./b_try...-catch.md)  
 - [try...catch...finally](./c_try...catch...finally.md)  
 
 ## Les erreurs asynchrones
 
 Avec du code asynchrone, la situation se complique un peu. Les erreurs ne se produisent pas forcément au moment où le code est lancé, mais plus tard, par exemple lorsqu’une réponse arrive d’un serveur. Dans ces cas, la gestion des erreurs doit être prévue dans les rappels (*callbacks*), les promesses (*promises*) ou via `async/await`. Ces techniques sont expliquées en détail dans la suite du chapitre :  
+
 - [La gestion asynchrone des erreurs](./d_async_errorhandling.md)
 
 ---
