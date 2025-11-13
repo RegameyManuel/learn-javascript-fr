@@ -17,8 +17,6 @@ En pratique, une fonction récursive doit toujours définir deux choses essentie
 
 Sans cas de base, la fonction s’appellerait indéfiniment et provoquerait une erreur de débordement de pile.
 
-
-
 ## Exemple simple : le compte à rebours
 
 ```javascript
@@ -43,8 +41,6 @@ compteARebours(5);
 Ici, le cas de base est atteint lorsque `n <= 0`.
 Sinon, la fonction s’appelle elle-même avec une valeur réduite (`n - 1`).
 
-
-
 ## Exemple classique : factorielle
 
 La factorielle d’un nombre `n` (notée `n!`) est définie ainsi :
@@ -65,8 +61,6 @@ function factorielle(n) {
 
 console.log(factorielle(5)); // 120
 ```
-
-
 
 ## Exemple : parcourir une structure imbriquée
 
@@ -101,8 +95,6 @@ afficherObj(utilisateur);
 // code : 75000
 ```
 
-
-
 ## Avantages et limites
 
 La récursion est élégante et correspond souvent à la définition naturelle d’un problème.
@@ -121,4 +113,3 @@ La récursion est puissante pour les problèmes hiérarchiques, mais doit être 
 ⬅️ [Chapitre précédent : Les Closures](./f_Closures.md)
 
 ➡️ [Chapitre suivant : Les Fonctions asynchrones](./h_Exercices)
-

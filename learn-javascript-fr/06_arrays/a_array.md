@@ -11,7 +11,6 @@ Un **tableau** est une structure de données qui permet de stocker plusieurs val
 Chaque valeur stockée est appelée un **élément**, et chaque élément est identifié par un **index**.  
 Les tableaux sont très utilisés en JavaScript car ils facilitent la manipulation de collections de données.
 
-
 ## Création d’un tableau
 
 Un tableau peut être créé de plusieurs manières :
@@ -27,7 +26,6 @@ const numbers = new Array(1, 2, 3);
 const empty = [];
 ```
 
-
 ## Accéder et modifier les éléments
 
 L’accès aux éléments se fait par leur **index**, en commençant à `0`.
@@ -39,7 +37,6 @@ console.log(cars[0]); // "Saab"
 cars[0] = "Opel"; // on change le premier élément
 console.log(cars); // ["Opel", "Volvo", "BMW"]
 ```
-
 
 ## Longueur d’un tableau
 
@@ -61,7 +58,6 @@ a.length = 5;
 console.log(a); // [1, 2, <3 trous>]
 ```
 
-
 ## Tableaux multidimensionnels
 
 Un tableau peut contenir d’autres tableaux, ce qui permet de créer des **tableaux multidimensionnels** (ou “matrices”).
@@ -76,7 +72,6 @@ const matrix = [
 console.log(matrix[0][1]); // 2
 console.log(matrix[2][0]); // 7
 ```
-
 
 ## Les tableaux sont des objets
 

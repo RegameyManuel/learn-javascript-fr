@@ -8,6 +8,7 @@ description: Fiche de révision rapide des principales méthodes de tableaux en 
 # Mémo – Méthodes des tableaux
 
 ## Ajouter / Supprimer
+
 - `push(x)` → ajoute à la fin  
 - `pop()` → retire le dernier  
 - `unshift(x)` → ajoute au début  
@@ -16,30 +17,36 @@ description: Fiche de révision rapide des principales méthodes de tableaux en 
 - `slice(start, end)` → copie une partie (sans modifier)
 
 ## Fusion et conversion
+
 - `concat(arr)` → fusionne  
 - `join(sep)` → chaîne avec séparateur  
 - `toString()` → convertit en chaîne  
 
 ## Parcours
+
 - `forEach(fn)` → exécute une fonction (ne renvoie rien)  
 - `map(fn)` → crée un nouveau tableau transformé  
 - `filter(fn)` → garde les éléments qui respectent la condition  
 
 ## Recherche
+
 - `find(fn)` → premier élément qui correspond  
 - `findIndex(fn)` → son index  
 - `includes(val)` → contient la valeur ?  
 - `indexOf(val)` / `lastIndexOf(val)` → position  
 
 ## Réduction
+
 - `reduce(fn, init)` → réduit à une valeur (de gauche à droite)  
 - `reduceRight(fn, init)` → réduit de droite à gauche  
 
 ## Tri et ordre
+
 - `sort(fn)` → trie (modifie le tableau)  
 - `reverse()` → inverse (modifie le tableau)  
 
 ## Autres
+
 - `length` → taille du tableau  
 - `flat(depth)` → aplatit  
 - `flatMap(fn)` → map + flat(1)  

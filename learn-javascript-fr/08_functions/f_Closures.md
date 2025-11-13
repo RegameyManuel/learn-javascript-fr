@@ -9,8 +9,6 @@ description: Une closure est une fonction qui se souvient du contexte dans leque
 
 En JavaScript, une fonction ne vit pas isolée : elle conserve un lien avec l’environnement dans lequel elle a été créée. Cette propriété particulière s’appelle une **closure** (ou fermeture). Grâce à elle, une fonction peut se souvenir des variables de son contexte d’origine, même si ce contexte est terminé.
 
-
-
 ## Exemple simple
 
 Prenons une fonction qui renvoie une autre fonction :
@@ -34,8 +32,6 @@ console.log(incrementer()); // 3
 
 Ici, la variable `compteur` appartient normalement à la fonction `creerCompteur`. Pourtant, la fonction renvoyée continue d’y avoir accès, même après la fin de `creerCompteur`. C’est l’essence même d’une closure.
 
-
-
 ## Pourquoi est-ce utile ?
 
 Les closures permettent de créer des fonctions **personnalisées** et **persistantes**.
@@ -44,8 +40,6 @@ Elles sont largement utilisées pour :
 * **Protéger des variables internes** : les variables d’une closure ne sont pas accessibles directement de l’extérieur, ce qui crée une sorte d’« encapsulation ».
 * **Créer des fonctions configurées** : une closure peut retenir une valeur et construire une fonction spécialisée.
 * **Gérer l’état dans un environnement fonctionnel** : elles offrent un moyen élégant de mémoriser des données sans utiliser d’objets complexes.
-
-
 
 ## Exemple : fonction personnalisée
 
@@ -66,8 +60,6 @@ console.log(tripler(5)); // 15
 ```
 
 Chaque fonction produite garde en mémoire la valeur de `x` définie lors de sa création.
-
-
 
 ## Exemple : variables privées
 

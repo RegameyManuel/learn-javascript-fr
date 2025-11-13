@@ -23,10 +23,10 @@ En JavaScript, les types les plus courants sont :
 
 JavaScript est un langage **faiblement typé**, c’est-à-dire que vous n’avez pas besoin d’indiquer explicitement le type de vos variables. Le moteur JavaScript déduit le type automatiquement à partir de la valeur assignée.
 
-
 ## Exercice 1
 
 Déclarez trois variables et initialisez-les avec les valeurs suivantes :  
+
 - `age` doit être un nombre,  
 - `name` doit être une chaîne de caractères,  
 - `isMarried` doit être un booléen.  
@@ -37,8 +37,7 @@ Déclarez trois variables et initialisez-les avec les valeurs suivantes :
 let age = 30;
 let name = "Cecilia";
 let isMarried = true;
-````
-
+```
 
 ## L’opérateur typeof
 
@@ -64,21 +63,21 @@ typeof null;                // "object"
 En JavaScript, on distingue deux grandes catégories :
 
 1. Les types qui peuvent contenir des valeurs :
-
+   
    * `string`
-
+   
    * `number`
-
+   
    * `boolean`
-
+   
    * `object`
-
+   
    * `function`
-
+   
    > Note : `Object`, `Date`, `Array`, `String`, `Number` et `Boolean` sont des objets natifs disponibles en JavaScript.
 
 2. Les types qui ne peuvent pas contenir de valeurs :
-
+   
    * `null`
    * `undefined`
 

@@ -10,7 +10,6 @@ description: Introduction aux chaînes de caractères en JavaScript et à leur r
 Une **chaîne de caractères** (ou *string*) est une suite de caractères représentant du texte.  
 En JavaScript, les chaînes font partie des types de données fondamentaux et sont utilisées partout : affichage de messages, saisie utilisateur, manipulation de données textuelles, etc.
 
-
 ## Définition d’une chaîne
 
 On peut créer une chaîne en entourant du texte avec des guillemets simples ou doubles :  
@@ -22,7 +21,6 @@ let str2 = 'Salut';
 
 Les deux formes sont équivalentes. Le choix dépend surtout de vos préférences et de la cohérence du projet.
 
-
 ## Les chaînes comme objets
 
 En JavaScript, les chaînes sont des **valeurs primitives** de type `string`.
@@ -33,7 +31,6 @@ let strObj = new String("Bonjour");
 ```
 
 Mais cette approche est déconseillée, car `strObj` n’est pas une primitive mais un **objet**, ce qui peut produire des résultats inattendus lors de comparaisons.
-
 
 ---
 
@@ -48,4 +45,3 @@ Mais cette approche est déconseillée, car `strObj` n’est pas une primitive m
 ⬅️ [Chapitre précédent : Opérateurs Avancés](../03_numbers/e_Exercices.md)
 
 ➡️ [Chapitre suivant : Création de chaînes](./b_Creation.md)
-

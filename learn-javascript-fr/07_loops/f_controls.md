@@ -9,8 +9,6 @@ description: JavaScript propose des instructions comme break, continue et les la
 
 Une boucle suit normalement un déroulement prévisible : initialisation, condition, exécution du bloc, puis passage à l’itération suivante. Cependant, il arrive que l’on veuille interrompre ce cycle ou sauter certaines étapes. JavaScript met à disposition plusieurs instructions permettant de modifier le flux d’exécution à l’intérieur des boucles.
 
-
-
 ## L’instruction break
 
 `break` met fin immédiatement à l’exécution d’une boucle, même si la condition de poursuite est encore vérifiée.
@@ -35,8 +33,6 @@ Résultat affiché :
 4
 ```
 
-
-
 ## L’instruction continue
 
 `continue` permet de **passer directement à l’itération suivante**, en ignorant les instructions restantes du bloc pour le cycle en cours.
@@ -59,8 +55,6 @@ Résultat affiché :
 7
 9
 ```
-
-
 
 ## Les Labels (étiquettes)
 
@@ -106,4 +100,3 @@ Ces instructions offrent un contrôle précis du déroulement d’une boucle, ma
 ⬅️ [Chapitre précédent : Itérations Modernes](./e_Iterations.md)
 
 ➡️ [Chapitre suivant : Les Fonctions](../08_fonctions/a_Fonctions.md)
-

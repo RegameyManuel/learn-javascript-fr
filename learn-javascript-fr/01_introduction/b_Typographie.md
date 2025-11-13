@@ -40,12 +40,12 @@ Ici, le texte `"Bonjour le monde !"` sera affiché à l’écran.
 Bonjour le monde !
 ```
 
-
 ## Mémo : Fonctions d’interaction en JavaScript
 
 Pour vos premiers programmes, vous utiliserez souvent ces fonctions simples qui permettent **d’afficher des informations** ou **d’interagir avec l’utilisateur**.
 
 ### `console.log()`
+
 Affiche un message dans la console du navigateur (accessible avec `F12`).  
 C’est l’outil principal pour tester et déboguer vos programmes.
 
@@ -59,7 +59,6 @@ Résultat (dans la console) :
 Bonjour !
 ```
 
-
 ### `alert()`
 
 Affiche une **boîte de dialogue** avec un message.
@@ -68,7 +67,6 @@ L’utilisateur doit cliquer sur **OK** pour continuer.
 ```javascript
 alert("Bienvenue dans mon programme !");
 ```
-
 
 ### `prompt()`
 
@@ -79,7 +77,6 @@ Permet de **demander une valeur** à l’utilisateur. La valeur saisie est retou
 let nom = prompt("Quel est ton nom ?");
 console.log("Bonjour " + nom);
 ```
-
 
 ### `confirm()`
 

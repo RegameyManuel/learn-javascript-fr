@@ -21,7 +21,6 @@ Bien sûr, il est possible de réaliser la condition suivante avec l'opérateur 
 
 Vous en conviendrez, cela change beaucoup de choses et peut créer des comportements indésirables. Pour prévenir ce genre de problème, il est recommandé d’utiliser en priorité la comparaison stricte (`===` et `!==`) plutôt que la comparaison faible (`==` et `!=`).
 
-
 ## Autres tests conditionnels fréquents
 
 * `x > a` : x est strictement supérieur à a ?
@@ -30,7 +29,6 @@ Vous en conviendrez, cela change beaucoup de choses et peut créer des comportem
 * `x >= a` : x est supérieur ou égal à a ?
 * `x != a` : x est différent de a ?
 * `x` : est-ce que x existe ?
-
 
 ## Comparaison logique - opérateur ternaire
 
@@ -63,4 +61,3 @@ Les deux cas possibles sont séparés par le signe `:`.
 ⬅️ [Chapitre précédent : Switch](./d_switch.md)
 
 ➡️ [Chapitre suivant : Conditions multiples](./f_Conditions.md)
-

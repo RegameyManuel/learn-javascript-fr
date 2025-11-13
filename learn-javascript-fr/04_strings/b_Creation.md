@@ -33,7 +33,6 @@ const stringObject = new String("Je suis une chaîne");
 Cependant, il est déconseillé de créer des chaînes avec `new String`, car cela crée un **objet** au lieu d’une valeur primitive `string`. Cela peut entraîner de la confusion.
 La bonne pratique est de préférer les littéraux de chaînes (`"..."` ou `'...'`).
 
-
 ## Littéraux de gabarits
 
 Depuis ES6, JavaScript introduit une nouvelle syntaxe : les **littéraux de gabarits**.
@@ -55,7 +54,6 @@ et j'ai ${age} ans.`;
 console.log(intro);
 ```
 
-
 ---
 
 ## À retenir
@@ -69,4 +67,3 @@ console.log(intro);
 ⬅️ [Chapitre précédent : Chaînes de caractères](./a_Chaines.md)
 
 ➡️ [Chapitre suivant : Remplacement de chaînes](./c_Remplacement.md)
-

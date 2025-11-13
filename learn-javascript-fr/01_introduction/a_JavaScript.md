@@ -12,8 +12,6 @@ Les ordinateurs occupent aujourd’hui une place centrale dans nos vies. Ils ex�
 Programmer, c’est concevoir une suite d’instructions : **un programme** 
 Ce programme permet de faire exécuter cette suite d'instructions par la machine. Cette activité demande rigueur et précision, car l’ordinateur ne comprend que des directives claires et formelles. Écrire du code peut donc parfois sembler fastidieux, mais c’est cette exigence qui permet d’obtenir des résultats fiables et reproductibles.
 
-![Intro Page](../.gitbook/assets/intro.png)
-
 Les **langages de programmation** servent d’intermédiaire entre l’humain et la machine. Comme nos langues naturelles, ils utilisent des mots et des structures pour exprimer des concepts. La plupart du temps, ces mots-clés sont en anglais et possèdent un sens évocateur, ce qui permet de rapprocher la logique informatique du langage courant.
 
 Autrefois, interagir avec un ordinateur passait par des langages proches de la machine, comme l'**Assembleur**, le **C**, le **BASIC** ou le **DOS**. Aujourd’hui, ces pratiques ont cédé la place à des interfaces graphiques plus simples d’accès, mais parfois limitées. Pourtant, des langages comme JavaScript ont su évoluer et s’adapter : d’abord cantonnés au navigateur, ils restent au premier plan du développement moderne et continuent d’animer les applications et les interfaces que nous utilisons au quotidien.
@@ -85,4 +83,5 @@ De langage improvisé en dix jours, il est devenu un langage universel et polyva
 - **JavaScript** est un langage moderne, central dans le développement web et les navigateurs.  
 
 ---
+
 ➡️ [Chapitre suivant : Typographie et conventions](./b_Typographie.md)

@@ -11,8 +11,6 @@ En JavaScript, les fonctions ne sont pas seulement des blocs de code que l’on 
 
 Concrètement, une fonction d’ordre supérieur peut recevoir une fonction en paramètre, l’appliquer à une série de données, ou bien produire une nouvelle fonction adaptée à un besoin particulier. Ces mécanismes, que l’on retrouve dans d’autres langages comme Python ou Lisp, ouvrent la porte à une programmation plus expressive et modulaire.
 
-
-
 ## Exemple avec map
 
 Commençons avec un exemple classique. Définissons deux fonctions simples :
@@ -43,8 +41,6 @@ map(double, [5, 6, 7]);  // => [10, 12, 14]
 ```
 
 Ici, `map` agit comme un intermédiaire : elle ne connaît pas à l’avance la transformation à effectuer, mais elle délègue cette responsabilité à la fonction reçue en argument.
-
-
 
 ## Générer des fonctions spécialisées
 
@@ -80,8 +76,6 @@ process_double([5, 6, 7]);  // => [10, 12, 14]
 ```
 
 Ainsi, avec une seule fonction générique (`buildProcessor`), nous générons des fonctions spécialisées adaptées à chaque transformation.
-
-
 
 ## Créer des fonctions sur mesure
 

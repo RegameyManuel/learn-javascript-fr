@@ -22,8 +22,6 @@ Comme on peut s'y attendre, `foo == bar` sera évalué à `true` tandis que `baz
 
 L'opérateur d'égalité triple égal `===` évalue l'égalité en se basant à la fois sur la valeur des variables **et** sur leur type. Si l'on reprend l'exemple précédent, cela revient à dire que `foo === bar` sera toujours évalué à `true`, mais que `foo === baz` sera à présent évalué `false`. En effet, bien que les valeurs semblent être égales, le type des variables diffère. Quant à lui, `baz === qux` sera toujours `false`.
 
-
-
 ## Exemple
 
 ```javascript
@@ -50,7 +48,6 @@ let boolResult2 = bool1 === bool2  // false
 - Il est recommandé d’utiliser `===` pour éviter les surprises liées aux conversions implicites.  
 
 ---
-
 
 ⬅️ [Chapitre précédent : Les Variables](./b_Variables.md)
 

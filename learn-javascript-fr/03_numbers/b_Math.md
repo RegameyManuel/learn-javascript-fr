@@ -81,7 +81,6 @@ L’objet `Math` contient encore bien d’autres méthodes : exponentielles (`Ma
 
 Il n’est pas nécessaire de toutes les retenir immédiatement. L’important est de connaître les plus fréquentes et de savoir que les autres existent pour pouvoir les retrouver dans la documentation officielle.
 
-
 ---
 
 ## À retenir

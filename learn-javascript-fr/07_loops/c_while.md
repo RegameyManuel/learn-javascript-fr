@@ -19,8 +19,6 @@ while (condition) {
 
 Ici, la condition est évaluée **avant chaque itération**. Si elle est fausse dès le départ, la boucle ne s’exécutera jamais.
 
-
-
 ## Exemple simple
 
 Imaginons que l’on souhaite afficher une série de nombres. Nous pouvons utiliser une boucle `while` pour incrémenter une variable jusqu’à atteindre une limite définie :
@@ -39,8 +37,6 @@ console.log(texte);
 
 Dans cet exemple, la variable `i` commence à 0. Tant que `i` est inférieure à 5, le message est ajouté au texte, puis `i` est augmenté de 1. La boucle s’arrête automatiquement lorsque `i` atteint 5.
 
-
-
 ## Attention aux boucles infinies
 
 Une boucle `while` doit toujours comporter une évolution de la variable testée, sans quoi la condition resterait indéfiniment vraie. On parle alors de **boucle infinie** : le programme reste bloqué, exécutant le même code sans fin. Pour les éviter, il est crucial de s’assurer que la condition deviendra fausse à un moment donné.
@@ -58,4 +54,3 @@ Il faut veiller à éviter les conditions qui ne changent jamais, afin de ne pas
 ⬅️ [Chapitre précédent : La Boucle For](./b_For.md)
 
 ➡️ [Chapitre suivant : La Boucle Do...While](./d_DoWhile.md)
-

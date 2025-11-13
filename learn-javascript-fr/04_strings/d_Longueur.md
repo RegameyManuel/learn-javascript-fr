@@ -10,7 +10,6 @@ description: Comprendre comment obtenir la longueur d’une chaîne de caractèr
 En JavaScript, chaque chaîne de caractères possède une propriété intégrée appelée **`length`**.  
 Cette propriété retourne le nombre total de caractères contenus dans la chaîne, y compris les espaces et les symboles.
 
-
 ## Exemple simple
 
 ```javascript
@@ -19,7 +18,6 @@ console.log(text.length); // 7
 ```
 
 Dans cet exemple, le résultat est `7` car le mot `"Bonjour"` contient exactement 7 caractères.
-
 
 ## Les espaces comptent aussi
 
@@ -32,13 +30,11 @@ console.log(phrase.length); // 11
 
 Le résultat est `11` car `"Hello World"` contient 10 lettres + 1 espace.
 
-
 ## Exercice
 
 1. Déclarez une variable `message` contenant la valeur `"JavaScript"`.
 2. Utilisez la propriété `length` pour afficher le nombre de caractères.
 3. Testez ensuite avec la chaîne `"Hello World!"` et observez la différence.
-
 
 ### Solution attendue
 

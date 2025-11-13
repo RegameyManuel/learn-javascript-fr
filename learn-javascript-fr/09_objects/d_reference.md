@@ -49,4 +49,3 @@ Les objets ne sont jamais copiés automatiquement en JavaScript. Lorsqu’on les
 ⬅️ [Chapitre précédent : La mutabilité](./c_mutable.md)
 
 ➡️ [Chapitre suivant : Prototype](./e_prototype.md)
-

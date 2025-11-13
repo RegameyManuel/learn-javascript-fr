@@ -12,13 +12,12 @@ Lorsqu’une application grandit, le code source a tendance à devenir de plus e
 Un module est un fichier qui encapsule une partie du code : il déclare ce qu’il rend disponible aux autres fichiers et peut lui-même importer des fonctionnalités définies ailleurs. On peut ainsi diviser une application en morceaux logiques, faciles à comprendre et à réutiliser.  
 
 Historiquement, plusieurs systèmes de modules ont vu le jour :  
+
 - **AMD** (Asynchronous Module Definition), utilisé notamment par *require.js*.  
 - **CommonJS**, adopté par Node.js.  
 - **UMD** (Universal Module Definition), qui cherche à être compatible avec les deux précédents.  
 
 Aujourd’hui, la norme moderne repose sur deux mots-clés : `export` et `import`.  
-
-
 
 ## Exporter et importer des fonctions
 
@@ -27,7 +26,7 @@ Un module peut désigner certaines de ses fonctions ou variables comme accessibl
 Prenons un exemple simple. On crée un fichier `sayHi.js` qui exporte une fonction :
 
 ```javascript
-// 📁 sayHi.js
+// sayHi.js
 export const sayHi = (user) => {
   alert(`Bonjour, ${user}!`);
 };
@@ -36,15 +35,13 @@ export const sayHi = (user) => {
 Dans un autre fichier, `main.js`, on peut importer cette fonction et l’utiliser :
 
 ```javascript
-// 📁 main.js
+// main.js
 import { sayHi } from "./sayHi.js";
 
 sayHi("Kelvin"); // Bonjour, Kelvin!
 ```
 
 Ici, le fichier `sayHi.js` déclare ce qu’il rend disponible, et `main.js` choisit ce qu’il souhaite importer.
-
-
 
 ## Export nommé et export par défaut
 
@@ -53,7 +50,7 @@ Il existe deux façons d’exporter : **nommée** et **par défaut**.
 Un export nommé permet d’indiquer précisément quelles constantes ou fonctions doivent être accessibles. On peut le faire directement à la déclaration ou à la fin du fichier :
 
 ```javascript
-// 📁 person.js
+//  person.js
 export const name = "Kelvin";
 export const age = 30;
 
@@ -66,7 +63,7 @@ export { name, age };
 Un export par défaut, en revanche, signale qu’un module fournit une seule valeur principale. Par exemple :
 
 ```javascript
-// 📁 message.js
+//  message.js
 const message = (name, age) => {
   return `${name} is ${age} years old.`;
 };
@@ -81,8 +78,6 @@ import message from "./message.js";      // import d’un export par défaut
 ```
 
 Il n’est pas possible d’avoir plusieurs exports par défaut dans un même fichier, mais on peut combiner un export par défaut et des exports nommés.
-
-
 
 ## Attention aux dépendances circulaires
 
@@ -104,10 +99,3 @@ Les modules sont une manière d’organiser son code en fichiers autonomes, réu
 ⬅️ [Chapitre précédent : …](../12_autre_chapitre/l_exercices.md)
 
 ➡️ [Chapitre suivant : …](./b_autre_section.md)
-
-```
-
----
-
-Veux-tu que je prépare aussi un `b_Exercices.md` pour ce chapitre **Modules**, avec des cas pratiques (création de petits modules, export nommé vs défaut, éviter les circulaires) ?
-```

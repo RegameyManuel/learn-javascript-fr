@@ -63,4 +63,3 @@ Les classes ne modifient pas le cœur de JavaScript mais simplifient la manière
 ⬅️ [Chapitre précédent : L’énumération](./g_enumeration.md)
 
 ➡️ [Chapitre suivant : L’héritage](./i_inheritance.md)
-

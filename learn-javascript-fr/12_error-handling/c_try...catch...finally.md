@@ -80,4 +80,3 @@ C’est le moyen le plus sûr de garantir que certaines actions, comme la fermet
 ⬅️ [Chapitre précédent : try...catch](./b_try...-catch.md)
 
 ➡️ [Chapitre suivant : La gestion des erreurs asynchrones](./d_async_errorhandling.md)
-

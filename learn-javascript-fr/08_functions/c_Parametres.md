@@ -22,8 +22,6 @@ saluer("Bob");   // Bonjour Bob
 
 Ici, `nom` est le paramètre de la fonction, tandis que `"Alice"` et `"Bob"` sont les arguments transmis.
 
-
-
 ## Valeurs par défaut
 
 En JavaScript, il est possible d’assigner une valeur par défaut à un paramètre. Cette valeur sera utilisée si aucun argument n’est fourni :
@@ -38,8 +36,6 @@ saluer("Claire"); // Bonjour Claire
 ```
 
 Cela évite de devoir vérifier systématiquement si un argument a été passé ou non.
-
-
 
 ## Paramètres variables et opérateur rest
 
@@ -58,8 +54,6 @@ console.log(somme(7, 8));       // 15
 
 Ainsi, la fonction `somme` peut traiter autant de valeurs qu’on le souhaite.
 
-
-
 ## Passage par valeur et par référence
 
 Il est important de comprendre comment les arguments sont transmis :
@@ -77,8 +71,6 @@ modifier(nombres);
 
 console.log(nombres); // [1, 2, 3, 99]
 ```
-
-
 
 ## Déstructuration des paramètres
 
@@ -103,8 +95,6 @@ function afficherCoordonnees([x, y]) {
 
 afficherCoordonnees([10, 20]); // x=10, y=20
 ```
-
-
 
 ## Bonnes pratiques
 

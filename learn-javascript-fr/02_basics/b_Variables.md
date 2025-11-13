@@ -11,57 +11,44 @@ Afin de bien comprendre la programmation, la première étape consiste à se rap
 En mathématiques, on écrit par exemple :
 
 ```javascript
-
 3 + 5 = 8
-
 ```
 
 On peut introduire une inconnue, comme `x` :
 
 ```javascript
-
 3 + x = 8
-
 ```
 
 En déplaçant les termes, on trouve la valeur de `x` :
 
 ```javascript
-
 x = 8 - 3
 -> x = 5
-
 ```
 
 Avec plusieurs inconnues, les combinaisons sont multiples :
 
 ```javascript
-
 x + y = 8
-
 ```
 
 On peut obtenir :
 
 ```javascript
-
 x = 4
 y = 4
-
 ```
 
 ou encore :
 
 ```javascript
-
 x = 3
 y = 5
-
 ```
 
 En programmation, les variables fonctionnent de manière similaire : elles sont comme de petites boîtes dont le contenu peut changer. Elles contiennent des valeurs ou le résultat de calculs. Chaque variable possède un **nom** et une **valeur**, séparés par un signe égal `=`.  
 Attention : certains mots sont **réservés** et ne peuvent pas être utilisés comme noms de variables.
-
 
 ## Déclaration de variables en JavaScript
 
@@ -73,7 +60,6 @@ let y = 6;
 let result = x + y;
 ```
 
-
 ## Règles de nommage
 
 Il existe des règles précises à respecter :
@@ -82,7 +68,6 @@ Il existe des règles précises à respecter :
 * Après le premier caractère, on peut utiliser des lettres, chiffres, underscores ou signes dollar.
 * JavaScript est **sensible à la casse** : `maVariable`, `MaVariable` et `MAVARIABLE` sont trois variables distinctes.
 * Il est recommandé d’utiliser des noms **clairs et descriptifs** qui reflètent le rôle de la variable.
-
 
 ## Exercice
 
@@ -99,7 +84,6 @@ let x =
 ```javascript
 let x = 20;
 ```
-
 
 ## ES6 et les nouvelles déclarations
 
@@ -118,7 +102,6 @@ La différence principale se situe au niveau de la portée :
 * `const` crée une variable dont la valeur ne peut plus être modifiée après sa déclaration.
 
 Nous préciserons les mécanismes de la portée dans le Chapitre 8 sur les fonctions.
-
 
 ## Exemple var vs let
 
@@ -142,7 +125,6 @@ function letTest() {
 }
 ```
 
-
 ## Exemple const
 
 ```javascript
@@ -161,7 +143,6 @@ x = "bye";
 - JavaScript est **sensible à la casse** : `maVariable` ≠ `MaVariable`.  
 
 ---
-
 
 ⬅️ [Chapitre précédent : Les Commentaires](./a_Commentaires.md)
 

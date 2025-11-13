@@ -9,8 +9,6 @@ description: La portée détermine l’endroit où une variable est accessible d
 
 Lorsqu’on écrit du code, toutes les variables n’ont pas la même « visibilité ». Certaines peuvent être utilisées partout, d’autres seulement dans une fonction ou un bloc donné. Cette notion est appelée **portée** (ou *scope* en anglais). Elle définit l’endroit où une variable est accessible, et elle joue un rôle essentiel dans l’organisation et la sécurité du code.
 
-
-
 ## Portée globale
 
 Une variable déclarée en dehors de toute fonction ou bloc appartient à la **portée globale**.  
@@ -29,8 +27,6 @@ console.log(message); // toujours accessible
 
 Attention toutefois : les variables globales peuvent provoquer des conflits si elles sont trop nombreuses. C’est pourquoi il est recommandé de les limiter au strict nécessaire.
 
-
-
 ## Portée locale
 
 Lorsqu’une variable est déclarée à l’intérieur d’une fonction, elle n’est visible qu’à l’intérieur de cette fonction. On parle alors de **portée locale** :
@@ -46,8 +42,6 @@ console.log(texte); // Erreur : texte n’existe pas en dehors
 ```
 
 Chaque fonction définit ainsi son propre environnement isolé.
-
-
 
 ## Portée de bloc
 
@@ -73,8 +67,6 @@ console.log(b); // 99, car var ignore la portée de bloc
 ```
 
 C’est l’une des raisons pour lesquelles `let` et `const` sont aujourd’hui préférés.
-
-
 
 ## Les fermetures (closures)
 

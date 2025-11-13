@@ -13,7 +13,6 @@ Pour cela, JavaScript propose deux opérateurs logiques :
 - **`&&`** (*AND*) : toutes les conditions doivent être vraies,  
 - **`||`** (*OR*) : au moins une des conditions doit être vraie.  
 
-
 ## Exemple avec AND (&&)
 
 Imaginons que vous vouliez tester si une valeur `x` est comprise entre 10 et 20.  
@@ -27,7 +26,6 @@ if (x > 10 && x < 20) {
 
 Ici, les deux comparaisons doivent être vraies pour que le bloc soit exécuté.
 
-
 ## Exemple avec OR (||)
 
 Si vous voulez vous assurer que la variable `country` est égale à `"Angleterre"` ou `"Allemagne"`, vous pouvez écrire :
@@ -39,7 +37,6 @@ if (country === "Angleterre" || country === "Allemagne") {
 ```
 
 Le bloc s’exécute si **au moins une** des conditions est remplie.
-
 
 ## Priorité avec les parenthèses
 
@@ -68,4 +65,3 @@ Dans ce cas, la vérification du `name` est effectuée en premier, puis combiné
 ⬅️ [Chapitre précédent : Comparaison](./e_Comparaison.md)
 
 ➡️ [Chapitre suivant : Exercices](./g_Exercices.md)
-

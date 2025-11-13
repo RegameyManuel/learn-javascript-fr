@@ -10,7 +10,6 @@ description: Découvrir comment utiliser l’instruction if en JavaScript pour e
 L’instruction `if` permet d’exécuter une portion de code uniquement si une condition est remplie.  
 C’est la manière la plus simple d’introduire de la logique conditionnelle dans un programme.
 
-
 ## Exemple simple
 
 ```javascript
@@ -23,7 +22,6 @@ if (x > 2) {
 
 Ici, le test `x > 2` est vrai, donc l’instruction `console.log("x est supérieur à 2")` est exécutée.
 Si la condition avait été fausse, le code à l’intérieur des accolades n’aurait pas été exécuté.
-
 
 ## Plusieurs conditions indépendantes
 
@@ -71,7 +69,6 @@ console.log(message);
 Dans ce cas, chaque condition est évaluée séparément.
 Il est possible qu’aucun bloc ne soit exécuté, ou bien qu’un seul s’exécute, ou même que plusieurs blocs s’exécutent si plusieurs conditions sont vraies.
 
-
 ## Exercice
 
 Déclarez une variable `age` et attribuez-lui la valeur `20`.
@@ -100,4 +97,3 @@ if (age >= 18) {
 ⬅️ [Chapitre précédent : Logique conditionnelle](./a_Logique.md)
 
 ➡️ [Chapitre suivant : Else](./c_else.md)
-

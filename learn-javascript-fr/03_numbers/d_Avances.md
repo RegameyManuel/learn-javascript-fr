@@ -84,4 +84,3 @@ Enfin, l’opérateur `??` est une manière élégante de définir une valeur pa
 ⬅️ [Chapitre précédent : Opérateurs de base](./c_Operateurs.md)
 
 ➡️ [Chapitre suivant : Exercices](./e_Exercices.md)
-

@@ -13,6 +13,7 @@ Ils sont organisés du plus simple au plus complexe.
 ---
 
 ## Exercice 1 - Les nombres
+
 1. Crée deux variables `a = 0.1` et `b = 0.2`. Additionne-les et affiche le résultat. Explique pourquoi ce n’est pas exactement `0.3`.  
 2. Déclare un nombre en binaire (`0b1011`) et affiche sa valeur en décimal.  
 3. Affiche `Number.MAX_SAFE_INTEGER` puis ajoute `1` et `2`. Observe le résultat.
@@ -20,6 +21,7 @@ Ils sont organisés du plus simple au plus complexe.
 ---
 
 ## Exercice 2 - L’objet Math
+
 1. Utilise `Math.PI` pour calculer la circonférence d’un cercle de rayon `5`.  
    Formule : `2 * π * r`.  
 2. Calcule la racine carrée de `144` avec `Math.sqrt`.  
@@ -28,6 +30,7 @@ Ils sont organisés du plus simple au plus complexe.
 ---
 
 ## Exercice 3 - Opérateurs de base
+
 1. Calcule et affiche le reste de la division de `123` par `10`.  
 2. Additionne un nombre et une chaîne de caractères pour constater la concaténation.  
 3. Divise `0` par `0` et observe le résultat.  
@@ -36,6 +39,7 @@ Ils sont organisés du plus simple au plus complexe.
 ---
 
 ## Exercice 4 - Opérateurs avancés
+
 1. Évalue `2 + 3 * 4 ** 2` puis compare avec `(2 + 3) * 4 ** 2`.  
 2. Déclare une variable `n = 10`.  
    - Incrémente-la deux fois.  
@@ -47,7 +51,9 @@ Ils sont organisés du plus simple au plus complexe.
 ---
 
 ## Exercice 5 - Mini-problème global
+
 Écris un petit programme qui :  
+
 1. Déclare une variable `rayon = 10`.  
 2. Calcule l’aire du cercle correspondant (π × r²).  
 3. Si l’aire est supérieure à 200, affiche `"Grand cercle"`, sinon `"Petit cercle"`.  

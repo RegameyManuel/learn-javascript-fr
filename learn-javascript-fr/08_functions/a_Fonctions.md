@@ -11,8 +11,6 @@ Parmi toutes les notions de la programmation, les fonctions occupent une place c
 
 Définir une fonction, c’est donc décrire une opération que l’on pourra ensuite invoquer dans le reste du programme. Une fois définie, elle peut être appelée à tout moment, ce qui en fait un outil incontournable pour éviter la répétition de code.
 
-
-
 ## Déclaration et expression de fonction
 
 Il existe deux manières principales de créer une fonction en JavaScript.
@@ -37,8 +35,6 @@ let double = function(x) {
 
 Dans ce cas, la fonction ne peut pas être utilisée avant sa définition, exactement comme une variable classique. Si le nom est omis, on parle alors de **fonction anonyme**.
 
-
-
 ## Fonctions comme valeurs
 
 En JavaScript, les fonctions sont de véritables valeurs. Elles peuvent être stockées dans des variables, passées en argument à d’autres fonctions, ou encore renvoyées comme résultat.
@@ -56,8 +52,6 @@ saluer("Alice", function() {
 ```
 
 Ici, la fonction anonyme fournie comme deuxième argument sera exécutée après l’affichage du message de salutation.
-
-
 
 ## Les fonctions fléchées
 
@@ -81,4 +75,3 @@ On peut les définir sous forme de **déclaration** ou d’**expression**, leur 
 ⬅️ [Chapitre précédent : Contrôle du Flux](../07_loops/g_Exercices.md)
 
 ➡️ [Chapitre suivant : Les Paramètres](./b_higher-order.md)
-

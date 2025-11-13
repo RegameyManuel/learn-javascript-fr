@@ -12,6 +12,7 @@ Ces exercices couvrent l’ensemble des notions vues dans ce chapitre. Commence 
 ---
 
 ## Exercice 1 - Les commentaires
+
 Ajoute un **commentaire monoligne** et un **commentaire multiligne** dans le code ci-dessous pour expliquer ce qu’il fait.
 
 ```javascript
@@ -103,4 +104,3 @@ Affiche chaque propriété avec `console.log`.
 ⬅️ [Chapitre précédent : Les Types](./d_Types.md)
 
 ➡️ [Chapitre suivant : Les Nombres](../03_numbers/a_Nombres.md)
-

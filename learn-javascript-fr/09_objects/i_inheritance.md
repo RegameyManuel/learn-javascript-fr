@@ -72,4 +72,3 @@ L’héritage en JavaScript s’exprime grâce au mot-clé `extends`, qui relie 
 ⬅️ [Chapitre précédent : Les classes](./h_class.md)
 
 ➡️ [Chapitre suivant : Le polymorphisme](./j_polymorphism.md)
-

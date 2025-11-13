@@ -73,7 +73,6 @@ console.log(Number("123"));      // 123
 
 Ces conversions sont indispensables lorsqu’on manipule des données saisies par un utilisateur ou provenant de fichiers externes.
 
-
 ---
 
 ## À retenir

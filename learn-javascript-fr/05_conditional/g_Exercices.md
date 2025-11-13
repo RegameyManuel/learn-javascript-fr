@@ -13,20 +13,24 @@ Ils sont progressifs : commencez par les plus simples et avancez vers les scéna
 ---
 
 ## Exercice 1 - Première condition
+
 Déclarez une variable `age = 20`.  
 Écrivez une condition `if` qui affiche `"Majeur"` si l’âge est supérieur ou égal à 18.
 
 ---
 
 ## Exercice 2 - If / else
+
 Déclarez une variable `x = 5`.  
 Écrivez une condition qui affiche :  
+
 - `"x est supérieur à 10"` si `x > 10`,  
 - sinon `"x est inférieur ou égal à 10"`.
 
 ---
 
 ## Exercice 3 - If / else if / else
+
 Déclarez une variable `country`.  
 Si `country === "Espagne"`, affichez `"Ola"`.  
 Si `country === "France"`, affichez `"Bonjour"`.  
@@ -36,8 +40,10 @@ Sinon, affichez `"Hello"`.
 ---
 
 ## Exercice 4 - Switch
+
 Déclarez une variable `day = "mercredi"`.  
 Utilisez un `switch` pour afficher :  
+
 - `"Début de semaine"` si `day === "lundi"`,  
 - `"Milieu de semaine"` si `day === "mercredi"`,  
 - `"Fin de semaine"` si `day === "vendredi"`,  
@@ -46,11 +52,13 @@ Utilisez un `switch` pour afficher :
 ---
 
 ## Exercice 5 - Comparaison stricte
+
 Déclarez deux variables :  
+
 ```javascript
 let a = 5;
 let b = "5";
-````
+```
 
 Testez les expressions suivantes avec `console.log` :
 

@@ -33,8 +33,6 @@ for (let i = 0; i < 10; i++) {
 
 Ici, la variable `i` commence à 0. Tant que `i` est strictement inférieur à 10, le bloc s’exécute, puis `i` est incrémentée de 1. La boucle se répète ainsi jusqu’à ce que la condition devienne fausse.
 
-
-
 ## Parcourir des objets et des tableaux
 
 La boucle for dispose de variantes qui facilitent l’itération sur des collections.
@@ -96,4 +94,3 @@ Elle constitue l’un des outils les plus pratiques et les plus utilisés du lan
 ⬅️ [Chapitre précédent : Les Boucles](./a_Boucles.md)
 
 ➡️ [Chapitre suivant : La Boucle While](./c_While.md)
-

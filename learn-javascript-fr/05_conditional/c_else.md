@@ -11,7 +11,6 @@ L’instruction `else` complète l’instruction `if`.
 Elle permet de définir un bloc de code qui sera exécuté lorsque la condition du `if` est fausse.  
 Ainsi, on peut prévoir deux chemins différents : un si la condition est vraie, un autre si elle est fausse.
 
-
 ## Exemple simple
 
 ```javascript
@@ -27,8 +26,8 @@ if (x > 10) {
 Dans cet exemple, comme `x` vaut 5, la condition `x > 10` est fausse.
 C’est donc le bloc `else` qui est exécuté, et le message `"x est inférieur ou égal à 10"` apparaît.
 
-
 ## else if
+
 L'instruction `else`peut également être assortie d'un autre `if`, on parle dans ce cas d'un sinon si. Chaque condition va être testée à la suite l'une de l'autre. Dès lors que l'une d'entre elles sera évaluée à true, l'exécution du code se pousuivra dans le bloc de code correspondant et il en sera fini pour ce bloc. Dans ce cas, les conditions placées en dessous ne seront pas évaluées. Réécrivons l'exemple précédent en suivant cette logique du si/sinon si/sinon.
 
 ```javascript
@@ -44,7 +43,6 @@ if (country === "Espagne") {
   console.log("Hello"); // ne s'exécute pas
 }
 ```
-
 
 ---
 

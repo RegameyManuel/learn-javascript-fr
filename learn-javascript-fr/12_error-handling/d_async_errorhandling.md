@@ -11,8 +11,6 @@ Dans le cas du code synchrone, une erreur se produit au moment même où l’ins
 
 Prenons un exemple courant : une requête vers un serveur. On envoie la demande maintenant, mais la réponse n’arrivera que dans quelques instants. Si cette réponse contient une erreur, elle se produit en dehors du flot d’exécution immédiat. Il faut donc des mécanismes spécifiques pour les capturer.
 
-
-
 ## Les promesses et `.catch()`
 
 En JavaScript moderne, une grande partie du code asynchrone repose sur les promesses. Lorsqu’une promesse échoue, elle se « rejette » avec une erreur. Pour la gérer, il suffit d’ajouter un `.catch()` à la chaîne.  
@@ -35,8 +33,6 @@ fetch("https://api.example.com/data")
 
 Dans cet exemple, si le serveur renvoie un code d’erreur, le rejet de la promesse sera capturé par le `.catch()`, qui affiche alors un message approprié.
 
-
-
 ## La syntaxe `async/await` et `try...catch`
 
 La syntaxe `async/await` rend le code asynchrone plus lisible, en lui donnant l’apparence d’un code synchrone. Elle permet également d’utiliser `try...catch` pour intercepter les erreurs.
@@ -57,8 +53,6 @@ async function fetchData(url) {
 ```
 
 Ici, si une erreur survient pendant l’appel ou la conversion en JSON, elle est interceptée par le bloc `catch`. Le flux d’exécution reste donc maîtrisé.
-
-
 
 ## Bonnes pratiques
 

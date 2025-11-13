@@ -9,8 +9,6 @@ description: Les fonctions fléchées, introduites avec ES6, offrent une syntaxe
 
 Depuis l’évolution du langage avec ES6, JavaScript propose une nouvelle manière d’écrire des fonctions : les **fonctions fléchées** (*arrow functions*). Leur nom vient du symbole `=>` qui les caractérise. Elles apportent une syntaxe plus courte et sont particulièrement adaptées aux fonctions courtes et aux callbacks.
 
-
-
 ## Syntaxe de base
 
 La forme la plus simple consiste à écrire :
@@ -24,8 +22,6 @@ console.log(double(4)); // 8
 Ici, la fonction prend un paramètre `x` et renvoie directement `x * 2`.
 Il n’est pas nécessaire d’écrire le mot-clé `function`, ni même `return` lorsque l’instruction est réduite à une seule expression.
 
-
-
 ## Différences avec les fonctions classiques
 
 Malgré leur concision, les fonctions fléchées ont un comportement différent des fonctions classiques sur plusieurs points importants :
@@ -35,8 +31,6 @@ Malgré leur concision, les fonctions fléchées ont un comportement différent 
 * Elles ne peuvent pas être utilisées comme **constructeurs** (avec `new`).
 
 Cela les rend pratiques pour certaines situations, mais inadaptées à d’autres.
-
-
 
 ## Exemple avec `this`
 
@@ -73,8 +67,6 @@ new Compteur(); // Affiche 1, 2, 3...
 ```
 
 Ici, la fonction fléchée reprend le `this` du contexte de création, ce qui correspond bien à l’objet `Compteur`.
-
-
 
 ## Cas d’utilisation courants
 

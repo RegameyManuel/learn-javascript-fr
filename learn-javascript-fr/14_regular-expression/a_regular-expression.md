@@ -21,8 +21,6 @@ let re2 = /xyz/;
 
 Dans les deux cas, on obtient un objet `RegExp` qui dispose des mêmes propriétés et méthodes. L’usage du constructeur est utile lorsqu’on veut construire une regex dynamiquement à partir de variables, tandis que la notation littérale est plus concise dans la plupart des cas.
 
-
-
 ## Les modificateurs
 
 Une regex peut être enrichie de modificateurs, appelés aussi drapeaux, qui changent la manière dont elle s’applique :
@@ -39,8 +37,6 @@ let pattern = /hello/gi;
 
 Ici, la recherche de « hello » sera effectuée sans tenir compte de la casse et sur l’ensemble du texte.
 
-
-
 ## Les ensembles de caractères
 
 Les crochets `[ ]` permettent de cibler une plage de caractères ou un groupe défini :
@@ -50,8 +46,6 @@ Les crochets `[ ]` permettent de cibler une plage de caractères ou un groupe d�
 * `[0-9]` : trouve un chiffre,
 * `[^0-9]` : trouve un caractère qui n’est pas un chiffre,
 * `(x|y)` : trouve l’une des alternatives proposées.
-
-
 
 ## Les métacaractères
 
@@ -78,8 +72,6 @@ Les regex reposent sur des caractères spéciaux, appelés **métacaractères**,
 | `\xdd`        | Correspond à un caractère défini par un code hexadécimal           |
 | `\udddd`      | Correspond à un caractère Unicode défini par un nombre hexadécimal |
 
-
-
 ## Propriétés et méthodes
 
 Les objets `RegExp` possèdent différentes propriétés et méthodes pour travailler avec les modèles :
@@ -96,9 +88,7 @@ Les objets `RegExp` possèdent différentes propriétés et méthodes pour trava
 | `test()`      | Renvoie `true` ou `false` selon que le modèle correspond au texte ou non |
 | `toString()`  | Renvoie la représentation en chaîne de l’expression régulière            |
 
-⚠️ La méthode `compile()` existe encore mais est obsolète et ne doit plus être utilisée.
-
-
+ La méthode `compile()` existe encore mais est obsolète et ne doit plus être utilisée.
 
 ## Exemples d’utilisation
 

@@ -40,7 +40,6 @@ Inclure des commentaires dans son code est essentiel pour assurer la qualité du
 
 ---
 
-
 ⬅️ [Chapitre précédent : Typographie](../01_introduction/b_Typographie.md)
 
 ➡️ [Chapitre suivant : Les Variables](./b_Variables.md)

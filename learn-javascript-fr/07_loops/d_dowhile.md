@@ -17,8 +17,6 @@ do {
 } while (condition);
 ```
 
-
-
 ## Exemple simple
 
 Affichons les nombres de 0 à 9 en utilisant une boucle `do...while` :
@@ -33,8 +31,6 @@ do {
 ```
 
 Dans cet exemple, la variable `i` est initialisée à 0. Le bloc s’exécute une première fois, puis la condition `i < 10` est évaluée. Tant qu’elle reste vraie, la boucle continue. Dès que `i` atteint 10, la boucle prend fin.
-
-
 
 ## Particularité du do...while
 
@@ -52,4 +48,3 @@ Elle s’apparente à la boucle `while`, mais son fonctionnement repose sur une 
 ⬅️ [Chapitre précédent : La Boucle While](./c_While.md)
 
 ➡️ [Chapitre suivant : Itérations Modernes](./e_IterationsTableaux.md)
-

@@ -10,10 +10,10 @@ description: Apprendre à remplacer des parties d’une chaîne de caractères a
 Il est fréquent de devoir modifier une chaîne en remplaçant un mot ou un caractère par un autre.  
 En JavaScript, cette opération se fait à l’aide de la méthode **`replace()`**.
 
-
 ## La méthode replace()
 
 La méthode `replace()` prend deux arguments :  
+
 1. la **valeur à remplacer** (ou une expression régulière),  
 2. la **nouvelle valeur** à insérer.  
 
@@ -24,7 +24,6 @@ let text = "Bonjour monde";
 let newText = text.replace("monde", "JavaScript");
 console.log(newText); // Bonjour JavaScript
 ```
-
 
 ## Utilisation avec des expressions régulières
 
@@ -41,13 +40,11 @@ Dans cet exemple :
 * `g` signifie *global* (remplace toutes les occurrences),
 * `i` signifie *insensible à la casse* (remplace `chat`, `Chat`, etc.).
 
-
 ## Exercice
 
 1. Déclarez une variable `message` avec la valeur `"Je suis triste"`.
 2. Utilisez `replace()` pour remplacer `"triste"` par `"heureux"`.
 3. Affichez le nouveau message.
-
 
 ### Solution attendue
 

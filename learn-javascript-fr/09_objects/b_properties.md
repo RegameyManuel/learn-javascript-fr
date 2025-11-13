@@ -65,4 +65,3 @@ Les propriétés sont la brique fondamentale des objets en JavaScript. Elles ass
 ⬅️ [Chapitre précédent : Les objets](./a_Objets.md)
 
 ➡️ [Chapitre suivant : La mutabilité](./c_mutable.md)
-

@@ -46,4 +46,3 @@ Les objets sont au cœur de JavaScript. Ils permettent de regrouper des informat
 ⬅️ [Chapitre précédent : …](../08_autre_section/derniere_page.md)
 
 ➡️ [Chapitre suivant : Les propriétés](./b_properties.md)
-

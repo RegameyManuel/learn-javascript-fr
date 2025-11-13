@@ -9,8 +9,6 @@ description: Les tableaux en JavaScript proposent des méthodes d’itération i
 
 Si les boucles traditionnelles (`for`, `while`, `do...while`) restent des outils essentiels, JavaScript met également à disposition des méthodes propres aux tableaux qui permettent d’itérer et de manipuler les données de façon plus concise et expressive. Ces méthodes appartiennent toutes à l’objet **Array** et sont désormais largement privilégiées dans le code moderne.
 
-
-
 ## forEach()
 
 `forEach()` exécute une fonction donnée pour **chaque élément du tableau**.  
@@ -32,8 +30,6 @@ banane
 cerise
 ```
 
-
-
 ## map()
 
 `map()` construit un **nouveau tableau** contenant le résultat d’une fonction appliquée à chaque élément.
@@ -44,8 +40,6 @@ const doubles = nombres.map(x => x * 2);
 
 console.log(doubles); // [2, 4, 6, 8]
 ```
-
-
 
 ## filter()
 
@@ -58,8 +52,6 @@ const pairs = nombres.filter(x => x % 2 === 0);
 console.log(pairs); // [10, 20, 30]
 ```
 
-
-
 ## reduce()
 
 `reduce()` applique une fonction dite **accumulateur** afin de combiner les éléments du tableau en une seule valeur.
@@ -70,8 +62,6 @@ const somme = nombres.reduce((acc, x) => acc + x, 0);
 
 console.log(somme); // 10
 ```
-
-
 
 ## some() et every()
 
@@ -86,8 +76,6 @@ const nombres = [2, 4, 6];
 console.log(nombres.some(x => x > 5));   // true
 console.log(nombres.every(x => x % 2 === 0)); // true
 ```
-
-
 
 ## find() et findIndex()
 

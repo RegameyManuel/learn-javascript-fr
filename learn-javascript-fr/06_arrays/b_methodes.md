@@ -10,11 +10,10 @@ description: Référence détaillée des principales méthodes de tableaux en Ja
 Ce document présente les méthodes et la propriété les plus utilisées pour manipuler les tableaux en JavaScript.  
 Pour chaque entrée : **ce que ça fait**, **si le tableau est modifié (mutation)**, **ce qui est renvoyé**, et **des exemples**.
 
-
-
 ## Ajouter / Supprimer
 
 ### `push(...items)`
+
 **Ajoute** un ou plusieurs éléments **à la fin**.  
 **Mutation :** oui. **Retour :** nouvelle longueur.
 
@@ -24,8 +23,6 @@ const len = fruits.push("orange", "kiwi");
 console.log(fruits); // ["pomme","banane","orange","kiwi"]
 console.log(len);    // 4
 ```
-
-
 
 ### `pop()`
 
@@ -39,8 +36,6 @@ console.log(last); // 3
 console.log(nums); // [1, 2]
 ```
 
-
-
 ### `unshift(...items)`
 
 **Ajoute** un ou plusieurs éléments **au début**.
@@ -51,8 +46,6 @@ const a = [2, 3];
 a.unshift(0, 1);
 console.log(a); // [0,1,2,3]
 ```
-
-
 
 ### `shift()`
 
@@ -65,8 +58,6 @@ const first = a.shift();
 console.log(first); // "x"
 console.log(a);     // ["y","z"]
 ```
-
-
 
 ### `splice(start, deleteCount, ...items)`
 
@@ -88,8 +79,6 @@ a.splice(1, 1, "A", "B");
 console.log(a); // [1,"A","B",5]
 ```
 
-
-
 ### `slice(begin, end)`
 
 **Copie** une portion du tableau **sans** le modifier.
@@ -104,8 +93,6 @@ console.log(a.slice(1, 3));   // [1,2]
 console.log(a.slice(-2));     // [3,4]
 console.log(a);               // [0,1,2,3,4] (inchangé)
 ```
-
-
 
 ## Fusion et conversion
 
@@ -122,8 +109,6 @@ console.log(c); // [1,2,3,4,5]
 console.log(a); // [1,2] (inchangé)
 ```
 
-
-
 ### `join(separator = ",")`
 
 Crée une **chaîne** avec les éléments séparés par `separator`.
@@ -135,8 +120,6 @@ console.log(a.join("-")); // "a-b-c"
 console.log(a.join());    // "a,b,c" (séparateur par défaut)
 ```
 
-
-
 ### `toString()`
 
 Convertit le tableau en **chaîne** (équivalent à `join(",")`).
@@ -145,8 +128,6 @@ Convertit le tableau en **chaîne** (équivalent à `join(",")`).
 ```javascript
 console.log([1,2,[3]].toString()); // "1,2,3"
 ```
-
-
 
 ## Parcours
 
@@ -163,8 +144,6 @@ const a = [1,2,3];
 a.forEach((x, i) => console.log(i, x));
 ```
 
-
-
 ### `map(callback, thisArg?)`
 
 **Transforme** chaque élément et **retourne un nouveau tableau**.
@@ -177,8 +156,6 @@ console.log(doubled); // [2,4,6]
 console.log(a);       // [1,2,3]
 ```
 
-
-
 ### `filter(callback, thisArg?)`
 
 **Sélectionne** les éléments qui satisfont la condition.
@@ -189,8 +166,6 @@ const a = [1,2,3,4,5];
 const evens = a.filter(x => x % 2 === 0);
 console.log(evens); // [2,4]
 ```
-
-
 
 ## Recherche
 
@@ -205,8 +180,6 @@ const found = a.find(o => o.id === 2);
 console.log(found); // {id:2}
 ```
 
-
-
 ### `findIndex(callback, thisArg?)`
 
 Retourne l’**index** du premier élément qui satisfait la condition (ou `-1`).
@@ -217,8 +190,6 @@ const a = [10, 20, 30];
 console.log(a.findIndex(x => x > 15)); // 1
 ```
 
-
-
 ### `includes(value, fromIndex = 0)`
 
 Vérifie si la valeur est présente (`true`/`false`).
@@ -228,8 +199,6 @@ Vérifie si la valeur est présente (`true`/`false`).
 ```javascript
 console.log([1,2,NaN].includes(NaN)); // true
 ```
-
-
 
 ### `indexOf(value, fromIndex = 0)` / `lastIndexOf(value, fromIndex?)`
 
@@ -243,8 +212,6 @@ console.log(a.indexOf(2));      // 1
 console.log(a.lastIndexOf(2));  // 3
 console.log([NaN].indexOf(NaN)); // -1 (contrairement à includes)
 ```
-
-
 
 ## Réduction
 
@@ -268,8 +235,6 @@ const grouped = [1,2,3,4,5].reduce((acc, x) => {
 console.log(grouped); // { odd:[1,3,5], even:[2,4] }
 ```
 
-
-
 ### `reduceRight(callback, initialValue?)`
 
 Comme `reduce`, mais de **droite à gauche**.
@@ -279,8 +244,6 @@ const a = ["a","b","c"];
 const joined = a.reduceRight((acc, x) => acc + x, "");
 console.log(joined); // "cba"
 ```
-
-
 
 ## Tri et ordre
 
@@ -303,8 +266,6 @@ console.log(users.map(u => u.n)); // ["Alice","Émile","Zoé"]
 
 **Mutation :** oui. **Retour :** le **même** tableau (trié).
 
-
-
 ### `reverse()`
 
 Inverse l’ordre **en place**.
@@ -315,8 +276,6 @@ const a = [1,2,3];
 a.reverse();
 console.log(a); // [3,2,1]
 ```
-
-
 
 ## Autres
 
@@ -333,8 +292,6 @@ a.length = 5;
 console.log(a);        // [1,2, <3 trous>]
 ```
 
-
-
 ### `flat(depth = 1)`
 
 Aplati un tableau de tableaux.
@@ -345,8 +302,6 @@ const a = [1, [2, [3, 4]]];
 console.log(a.flat());     // [1, 2, [3, 4]]
 console.log(a.flat(2));    // [1, 2, 3, 4]
 ```
-
-
 
 ### `flatMap(callback, thisArg?)`
 
@@ -359,8 +314,6 @@ const chars = words.flatMap(w => w.split(""));
 // ["s","a","l","u","t"," ","l","e","s"," ","a","m","i","s"]
 ```
 
-
-
 ### `fill(value, start = 0, end = length)`
 
 Remplit une section du tableau avec `value`.
@@ -371,8 +324,6 @@ const a = [1,2,3,4,5];
 a.fill(0, 1, 4);
 console.log(a); // [1,0,0,0,5]
 ```
-
-
 
 ### `copyWithin(target, start = 0, end = length)`
 
@@ -385,8 +336,6 @@ const a = [1,2,3,4,5];
 a.copyWithin(0, 2, 4);
 console.log(a); // [3,4,3,4,5]
 ```
-
-
 
 ### `keys()` / `values()` / `entries()`
 

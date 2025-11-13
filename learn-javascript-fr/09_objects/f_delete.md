@@ -40,4 +40,3 @@ L’opérateur `delete` supprime une propriété d’un objet, mais il ne détru
 ⬅️ [Chapitre précédent : Prototype](./e_prototype.md)
 
 ➡️ [Chapitre suivant : L’énumération](./g_enumeration.md)
-

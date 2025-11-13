@@ -10,7 +10,6 @@ description: Comprendre l’utilisation de l’instruction switch en JavaScript 
 L’instruction **`switch`** est une alternative à la succession de `if / else if / else`.  
 Elle est particulièrement pratique lorsqu’il s’agit de comparer une même variable à plusieurs valeurs possibles.
 
-
 ## Syntaxe de base
 
 ```javascript
@@ -30,7 +29,6 @@ switch (expression) {
 * Chaque `case` est testé : si l’expression est strictement égale à la valeur indiquée, le bloc correspondant est exécuté.
 * Le mot clé `break` permet de sortir du switch et d’éviter d’exécuter les blocs suivants.
 * Le bloc `default` est optionnel et s’exécute si aucun des `case` ne correspond.
-
 
 ## Exemple
 
@@ -55,12 +53,12 @@ switch (fruit) {
 Ici, la valeur `"banane"` correspond au deuxième `case`.
 Le message `"C’est une banane"` est donc affiché.
 
-
 ## Exercice
 
 1. Déclarez une variable `jour` avec la valeur `"lundi"`.
-2. Utilisez un `switch` pour afficher :
 
+2. Utilisez un `switch` pour afficher :
+   
    * `"Début de semaine"` si `jour` est `"lundi"`,
    * `"Milieu de semaine"` si `jour` est `"mercredi"`,
    * `"Fin de semaine"` si `jour` est `"vendredi"`,
@@ -99,4 +97,3 @@ switch (jour) {
 ⬅️ [Chapitre précédent : Else](./c_else.md)
 
 ➡️ [Chapitre suivant : Comparaison](./e_Comparaison.md)
-
