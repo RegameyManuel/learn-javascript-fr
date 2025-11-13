@@ -79,4 +79,4 @@ Une gestion attentive et cohérente des erreurs asynchrones est essentielle pour
 
 ⬅️ [Chapitre précédent : try...catch...finally](./c_try...catch...finally.md)
 
-➡️ [Chapitre suivant : …](./e_Exercices.md)
+➡️ [Chapitre suivant : Exercices](./e_Exercices.md)

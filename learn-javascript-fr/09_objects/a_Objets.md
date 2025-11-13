@@ -43,6 +43,6 @@ Les objets sont au cœur de JavaScript. Ils permettent de regrouper des informat
 
 ---
 
-⬅️ [Chapitre précédent : Fonctions](../08_functions/h_Exercises.md)
+⬅️ [Chapitre précédent : Fonctions](../08_functions/h_Exercices.md)
 
 ➡️ [Chapitre suivant : Les propriétés](./b_properties.md)

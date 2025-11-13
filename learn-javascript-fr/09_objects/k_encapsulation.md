@@ -59,4 +59,4 @@ L’encapsulation regroupe les données et les comportements dans une même enti
 
 ⬅️ [Chapitre précédent : Le polymorphisme](./j_polymorphism.md)
 
-➡️ [Chapitre suivant : …](./l_Exercices.md)
+➡️ [Chapitre suivant : Exercices](./l_Exercices.md)

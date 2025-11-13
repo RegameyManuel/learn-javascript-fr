@@ -54,6 +54,6 @@ Le JSON est un format textuel standard qui permet de représenter des données d
 
 ---
 
-⬅️ [Chapitre précédent : Date et temps](../10_date-time/b_exercices_date-time.md)
+⬅️ [Chapitre précédent : Date et temps](../10_date-time/b_Exercices.md)
 
 ➡️ [Chapitre suivant : Exercices](./b_Exercices.md)
